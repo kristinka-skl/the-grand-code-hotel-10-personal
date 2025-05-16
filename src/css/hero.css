@@ -2,6 +2,9 @@
     padding-top: 48px;
     padding-bottom: 48px;
  }
+ .hero-banner-wrapper {
+    margin: 0 auto;
+ }
  .section-hero-title {
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -9,18 +12,19 @@
     line-height: 1.2;
     margin-bottom: 20px;
     text-align: start;
-    max-width: 343px;
+    
 }
 .section-hero-text { 
     font-size: 16px;
-    margin-bottom: 24px;      
+    margin-bottom: 24px;
+    text-align: start;      
 }
 .ancor-link {
     display: block;
     border: 1px solid;
     border-radius: 100px;
     padding: 10px 24px;
-    width: 329px;
+    max-width: 329px;
     height: 46px;
     font-weight: 500;
     font-size: 16px;
@@ -32,5 +36,10 @@
 .ancor-link-to-gallery {
     border-color: rgba(255, 255, 255, 0);
     background-color: rgba(13, 11, 10, 0.05);; 
+}
+.hero-btns-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
