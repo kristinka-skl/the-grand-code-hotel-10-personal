@@ -2,3 +2,37 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
+.pricing-header {
+    margin-bottom: 48px;
+}
+
+.pricing-subtitle {
+    /* font-family: "Sarabun", sans-serif; */
+    font-weight: 600;
+    /* font-size: 16px; */
+    line-height: 1.5;
+    /* text-align: center; */
+    /* color: #0d0b0a; */
+}
+
+.pricing-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    /* text-align: center; */
+    /* color: #0d0b0a; */
+}
+
+.pricing-description {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+
+
