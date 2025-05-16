@@ -1,0 +1,144 @@
+.facts {
+    padding: 64px 16px;
+    background: yellowgreen; /*змінити по шаблону*/
+    max-width: 100%;
+
+}
+
+.facts_container {
+    text-align: center;
+}
+
+.facts_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    padding-bottom: 20px;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+}
+
+.facts_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 48px;
+}
+
+
+.facts_list {
+    list-style: none;
+    width: 100%;
+
+}
+
+.facts_item {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    margin-bottom: 48px;
+}
+
+.facts_item_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    padding-bottom: 20px;
+}
+
+.facts_item_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+}
+
+.facts_join-button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid var(--color-hawkes-blue);
+    border-radius: 100px;
+    padding: 10px 24px;
+    max-width: 343px;
+    background: var(--color-hawkes-blue);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-neutral-darkest);
+    transition: background-color 0.3s ease;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    span {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width:767px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 40px 32px;
+    }
+
+    .facts_list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .facts_item {
+        width: 340px;
+        height: auto;
+        margin: auto;
+    }
+
+    .facts_item_title {
+        padding: 0;
+    }
+
+    .facts_join-button {
+        display: inline-block;
+        width: 110px;
+        height: 46px;
+        margin: 40px 0;
+    }
+}
+
+
+@media (min-width: 1336px) {
+    .container {
+        width: 1440px;
+        padding: 112px 64px;
+    }
+
+    .facts_list {
+        display: flex;
+
+    }
+
+}
