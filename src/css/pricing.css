@@ -1,4 +1,4 @@
-.container {
+.container.pricing {
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -14,6 +14,7 @@
     line-height: 1.5;
     /* text-align: center; */
     /* color: #0d0b0a; */
+    margin-bottom: 12px;
 }
 
 .pricing-title {
@@ -24,15 +25,53 @@
     letter-spacing: 0.01em;
     /* text-align: center; */
     /* color: #0d0b0a; */
+    margin-bottom: 20px;
 }
 
 .pricing-description {
-    font-family: "Sarabun", sans-serif;
+    /* font-family: "Sarabun", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    color: #0d0b0a;
+    color: #0d0b0a; */
 }
 
+.pricing-all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
 
+.pricing-card {
+    background: #dfebeb;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    max-width: 343px;
+    width: 100%;
+}
+
+.card-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    /* letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a; */
+}
+
+.price {
+    font-family: "Cabin", sans-serif;
+    /* font-weight: 400; */
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    /* text-align: center;
+    color: #0d0b0a; */
+    margin-bottom: 24px;
+    
+}
