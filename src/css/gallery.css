@@ -1,0 +1,62 @@
+.section-gallery-head {
+  padding: 64px 0;
+}
+.section-gallery-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+.section-gallery-text {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 48px;
+}
+.section-gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 24px;
+  row-gap: 24px;
+}
+
+.section-gallery-item {
+  width: calc((100% - 24px) / 2);
+}
+
+@media screen and (min-width: 768px) {
+  .section-gallery-head {
+    padding: 40px 0;
+  }
+
+  .section-gallery-title {
+    margin-bottom: 24px;
+  }
+  .section-gallery-text {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .section-gallery-head {
+    padding: 112px 0;
+  }
+  .section-gallery-title {
+    font-size: 52px;
+  }
+
+  .section-gallery-text {
+    font-weight: 500;
+  }
+  .section-gallery-item {
+    width: calc((100% - 48px) / 3);
+  }
+}
