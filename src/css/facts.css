@@ -1,5 +1,5 @@
 .facts {
-    background: #DFEBEB;
+    background-color: #DFEBEB;
     max-width: 100%;
 }
 
@@ -94,7 +94,7 @@
 
 /* ============================ */
 /* 320px — 374px: гумова мобільна верстка */
-@media (min-width: 320px) and (max-width: 374px) {      
+@media (min-width: 320px) and (max-width: 374px) {
     .facts_list {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -104,7 +104,7 @@
 /* ============================ */
 /* 375px — 767px: адаптивна мобільна верстка */
 @media (min-width: 375px) and (max-width: 767px) {
-  
+
     /* ховаємо span в кнопці */
     .facts_link span {
         display: none;
@@ -114,14 +114,19 @@
 /* ============================ */
 /* Планшет з 768px */
 @media (min-width: 768px) and (max-width: 1335px) {
+    .facts {
+        background-color: #F2FAFA;
+    }
     .facts_container {
         max-width: 768px;
         padding: 40px 32px;
     }
+
     .facts_title {
         margin: 0;
         padding-top: 40px;
     }
+
     .facts_text {
         font-size: 18px;
         margin-bottom: 40px;
@@ -156,6 +161,7 @@
 /* Десктоп з 1336px */
 @media (min-width: 1336px) {
     .facts {
+        background-color: #F2FAFA;
         width: 1440px;
         padding: 112px 64px;
         margin: 0 auto;
@@ -172,6 +178,7 @@
         padding-bottom: 24px;
         margin: 0 auto;
     }
+
     .facts_text {
         font-size: 18px;
     }
