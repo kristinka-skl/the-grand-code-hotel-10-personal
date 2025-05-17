@@ -12,12 +12,8 @@
 }
 
 .pricing-subtitle {
-    /* font-family: "Sarabun", sans-serif; */
     font-weight: 600;
-    /* font-size: 16px; */
     line-height: 1.5;
-    /* text-align: center; */
-    /* color: #0d0b0a; */
     margin-bottom: 12px;
 }
 
@@ -27,18 +23,11 @@
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    /* text-align: center; */
-    /* color: #0d0b0a; */
     margin-bottom: 20px;
 }
 
 .pricing-description {
-    /* font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    color: #0d0b0a; */
+    
 }
 
 .pricing-all-cards {
@@ -54,7 +43,7 @@
     border-radius: 16px;
     padding: 32px 24px;
     max-width: 343px;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .card-title {
@@ -63,19 +52,14 @@
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 8px;
-    /* letter-spacing: 0.01em;
-    text-align: center;
-    color: #0d0b0a; */
+
 }
 
 .price {
     font-family: "Cabin", sans-serif;
-    /* font-weight: 400; */
     font-size: 44px;
     line-height: 1.2;
     letter-spacing: 0.01em;
-    /* text-align: center;
-    color: #0d0b0a; */
     margin-bottom: 32px;
     
 }
@@ -101,7 +85,8 @@
     border: 1px solid #c2d9fc;
     border-radius: 100px;
     padding: 10px 24px;
-    width: 295px;
+    /* width: 295px; */
+    width: 100%;
     height: 46px;
     background: #c2d9fc;
 
@@ -111,7 +96,85 @@
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+    .pricing-section {
+        background: #f2fafa;
+    }
+
+    .container.pricing {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pricing-header {
+        margin-bottom: 24px;
+    }
+
+    .pricing-subtitle {
+        margin-bottom: 16px;
+    }
+
+    .pricing-title {
+        margin-bottom: 24px;
+    }
+
+    .pricing-description {
+        font-size: 18px;
+
+    }
+
+    .pricing-all-cards {
+        gap: 24px;
+    }
+
+    .pricing-card {
+        max-width: calc((100% - 24px) / 2);
+        padding: 16px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .price {
+        font-size: 72px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-bottom: 32px;
+
+    }
+
+
+
+
+
+    
+    .pricing-card.last {
+        max-width: 100%;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .join-btn-pricing.last {
+        width: 320px;
+    }
 
 
 
