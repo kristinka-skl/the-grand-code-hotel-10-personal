@@ -12,8 +12,7 @@
     font-size: 44px;
     line-height: 1.2;
     margin-bottom: 20px;
-    text-align: start;
-    padding-right: 4px;    
+    text-align: start;        
 }
 .section-hero-text { 
     font-size: 16px;
@@ -47,7 +46,7 @@
     height: 46px;
     font-weight: 500;
     font-size: 16px;     
-    background-color: rgba(13, 11, 10, 0.05);; 
+    background-color: rgba(13, 11, 10, 0.05);
 }
 .hero-link {
     max-width: 329px;
