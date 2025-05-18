@@ -5,8 +5,6 @@ img{
     height: auto;
 }
 
-/* beginning of section */
-
 .team-section{
 padding: 64px 0 ;
 background-color: #F2FAFA;
@@ -16,8 +14,7 @@ background-color: #F2FAFA;
 font-family: "Sarabun", sans-serif;
 font-weight: 600;
 font-size: 16px;
-
-/* line-height: 24px; */ 
+ 
 line-height: 1.5;
 text-align: center;
 color: #0D0B0A;
@@ -28,7 +25,6 @@ font-family: "Cabin", sans-serif;
 font-weight: 400;
 font-size: 40px;
 
-/* line-height: 48px; */ 
 line-height: 1.2;
 letter-spacing: 0.01em;
 text-align: center;
@@ -41,14 +37,10 @@ font-family: "Sarabun", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
-/* line-height: 26px; */ 
 line-height: 1.6;
 text-align: center;
 color: #0D0B0A;
 }
-
-
-/* photos of team */
 
 .team-list{
 display: flex;
@@ -76,7 +68,6 @@ font-family: "Sarabun", sans-serif;
 font-weight: 600;
 font-size: 18px;
 
-/* line-height: 29px; */ 
 line-height: 1.6;
 text-align: center;
 color: #0D0B0A;
@@ -87,7 +78,6 @@ font-family: "Sarabun", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
-/* line-height: 26px; */ 
 line-height: 1.6;
 text-align: center;
 color: #0D0B0A;
@@ -98,14 +88,11 @@ font-family: "Sarabun", sans-serif;
 font-weight: 400;
 font-size: 16px;
 
-/* line-height: 26px; */ 
 line-height: 1.6;
 text-align: center;
 color: #0D0B0A;
 margin-top: 12px;
 }
-
-/* part with networks */
 
 .socnetwork-list{
 display: flex;
