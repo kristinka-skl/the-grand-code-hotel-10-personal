@@ -1,0 +1,140 @@
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-section{
+padding: 64px 0 ;
+background-color: #F2FAFA;
+}
+
+.small-title{
+font-family: "Sarabun", sans-serif;
+font-weight: 600;
+font-size: 16px;
+ 
+line-height: 1.5;
+text-align: center;
+color: #0D0B0A;
+}
+
+.team-title{
+font-family: "Cabin", sans-serif;
+font-weight: 400;
+font-size: 40px;
+
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0D0B0A;
+margin: 12px 0 20px;
+}
+
+.team-text-section{
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.6;
+text-align: center;
+color: #0D0B0A;
+}
+
+.team-list{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 48px;
+padding: 48px 0;
+}
+
+.team-item{
+background-color: #F2FAFA;
+}
+
+.team-image{
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.team-text-name{
+margin-top: 20px;
+}
+
+.name-title{
+font-family: "Sarabun", sans-serif;
+font-weight: 600;
+font-size: 18px;
+
+line-height: 1.6;
+text-align: center;
+color: #0D0B0A;
+}
+
+.team-text-main{
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.6;
+text-align: center;
+color: #0D0B0A;
+}
+
+.team-text-description{
+font-family: "Sarabun", sans-serif;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.6;
+text-align: center;
+color: #0D0B0A;
+margin-top: 12px;
+}
+
+.socnetwork-list{
+display: flex;
+justify-content: center;
+gap: 14px;
+margin-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+	.team-section{
+         padding: 40px 0 ;
+    }
+
+	.team-title{
+		font-size: 52px;
+		margin: 16px 0 24px;
+	}
+    
+	.team-text-main{
+		font-size: 18px;
+	}
+
+    .team-list{
+		row-gap: 24px;
+		column-gap: 24px;
+	}
+
+	.team-list .team-item{
+		width: calc((100% - 24px) / 2);
+	}
+}
+
+@media screen and (min-width: 1336px){
+.team-section{
+         padding: 112px 0 ;
+    }
+
+	.team-list{
+		row-gap: 64px;
+		column-gap: 24px;
+	}
+     .team-list .team-item{
+		width: calc((100% - 48px) / 3);
+	}
+}
