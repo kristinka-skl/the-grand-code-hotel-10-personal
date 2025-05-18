@@ -1,1 +1,159 @@
- 
+.section-programs {
+  background-color: #dfebeb;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.text-explore {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.section-programs-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.section-programs-text {
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+.programs-item {
+  margin-bottom: 48px;
+}
+
+.programs-card-photo img {
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.programs-card-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.programs-card-text {
+  font-size: 16px;
+}
+
+.btn-programs-to-parcing {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  max-width: 343px;
+  height: 46px;
+  background: #c2d9fc;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-programs {
+    background-color: #f2fafa;
+  }
+
+  .section-programs-title {
+    max-width: 704px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-programs-text {
+    font-size: 18px;
+    max-width: 704px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .programs-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .programs-item {
+    margin: 0;
+    max-width: 340px;
+  }
+
+  .programs-item:nth-child(3) {
+    max-width: 100%;
+  }
+
+  .programs-item:nth-child(3) .programs-card-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 704px;
+    margin-bottom: 16px;
+  }
+
+  .programs-card-photo img {
+    width: 340px;
+    height: 240px;
+    margin-bottom: 16px;
+  }
+
+  .programs-card-title {
+    margin-bottom: 0px;
+  }
+
+  .beginner-hide{
+    display: none;
+  }
+
+  .btn-programs-to-parcing {
+    max-width: 110px;
+  }
+
+  .programs-link {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .section-programs-title {
+    text-align: center;
+    max-width: 768px;
+    font-size: 52px;
+  }
+
+  .section-programs-text {
+    max-width: 768px;
+  }
+
+  .programs-item {
+    max-width: 421px;
+  }
+
+  .programs-card-photo img {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .programs-card-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .programs-item:nth-child(3) {
+    max-width: 421px;
+  }
+
+  .programs-item:nth-child(3) .programs-card-photo img{
+    margin-bottom: 32px;
+  }  
+}
