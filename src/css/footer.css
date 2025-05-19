@@ -84,9 +84,7 @@
 .link-section-item {
     padding: 8px 0;
 }
-.linc-section-par {
-    font-size: 14px;
-}
+
 .foot-media-item {
     padding: 9px 0;    
 }
@@ -95,9 +93,6 @@
     flex-direction: row;
     gap: 12px;
     align-items: center;
-}
-.media-par {    
-    font-size: 14px;    
 }
 
 .all-rights {   
