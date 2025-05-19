@@ -1,24 +1,69 @@
 .footer {
-    background-color: #DFEBEB;
-    padding: 64px;
-    font-family: "Sarabun", sans-serif;
+    background-color: #DFEBEB;       
     display: flex;
     flex-direction: column;
-    min-width: 375px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
-
 .footer-container {
-    background-color: #F8FBFE;
-    padding: 48px;
+    background-color: #F8FBFE;    
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+}
+.footer-logo {
+    width: 84px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-first-par {
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+.footer-form {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
-    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+.foot-form-input {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    height: 42px;
+    line-height: 1.6;
+    background-color: rgba(13, 11, 10, 0.05);
+}
+.foot-form-input::placeholder {   
+    line-height: 1.6;
+    color: rgba(13, 11, 10, 0.6);
+}
+.footer-button {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 279px;
+    height: 46px;
+    background-color: rgba(13, 11, 10, 0.05);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;    
+}
+.privacy {   
+    font-size: 12px;
+    text-align: start;    
 }
 
-.footer-pre-form {
-    max-width: 320px;
-}
+
+
 
 .footer-links {
     flex-direction: column;
@@ -32,48 +77,47 @@
     text-align: left;
 }
 
-.footer-first-par {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 160%;
-}
 
-.footer-form-cont {
-    margin-top: 24px;
+.links-sections {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-
-.foot-form-input {
-    font-size: 16px;
+.quick-links {
+    text-align: left;
+}
+.linc-section-par,
+.media-par {
     font-weight: 400;
+    font-size: 14px;
     line-height: 160%;
     letter-spacing: 0%;
-    height: 42px;
-    padding: 8px 12px;
-    border-radius: 12px;
-    border: none;
-    width: 271px;
 }
-
-.footer-button {
-    justify-content: center;
-    align-items: center;
-    font-family: "Sarabun", sans-serif;
+.quick-links-title,
+.connect-us {
+    font-weight: 600;
     font-size: 16px;
-    font-weight: 500;
     line-height: 160%;
-    color: #0D0B0A;
-    background-color: #0D0B0A0D;
-    border: none;
-    border-radius: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30px;
-    height: 26px;
-    width: 279px;
-    height: 46px;
-    padding: 10px 125px;
+    letter-spacing: 0%;
 }
-
+.footer-media-list {
+    margin: 0;
+    padding: 0;
+}
+.media-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.media-svg {
+    background-color: #DFEBEB;
+    margin-right: 4px;
+}
+.quick-links,
+.connect-with-us {
+    width: 100%;
+}
 .all-rights {
     font-weight: 400;
     font-size: 14px;
@@ -82,90 +126,38 @@
     margin-left: 48px;
 }
 
-.privacy {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 160%;
-    letter-spacing: 0%;
-}
-
-.links-sections {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.quick-links {
-    text-align: left;
-}
-
-.linc-section-par,
-.media-par {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 160%;
-    letter-spacing: 0%;
-}
-
-.quick-links-title,
-.connect-us {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 160%;
-    letter-spacing: 0%;
-}
-
-.footer-media-list {
-    margin: 0;
-    padding: 0;
-}
-
-.media-icon {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.media-svg {
-    background-color: #DFEBEB;
-    margin-right: 4px;
-}
-
-.quick-links,
-.connect-with-us {
-    width: 100%;
-}
 
 
-@media screen and (min-width: 768px) and (max-width: 1335.98px) {
+@media screen and (min-width: 768px) {
     .footer-container {
-        flex-direction: column;
-        min-width: 704px;
-        align-items: flex-start;
+        padding: 40px 32px;     
     }
-
+    .footer-logo {
+        margin-bottom: 24px;
+    }
     .footer-first-par {
-        width: 640px;
+        margin-bottom: 24px;
     }
-
-    .footer-button {
-        margin-left: 16px;
-        padding: 10px 24px;
-        width: 78px;
-        height: 46px;
+    .footer-pre-form {
+        width: 100%;
     }
-
+    .footer-button {    
+        width: 78px;        
+    }
     .footer-form {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        width: 680px;
+        flex-wrap: wrap;        
+        gap: 16px;
     }
+    .foot-form-label {
+        flex-grow: 1;
+    } 
 
-    .foot-form-input {
-        width: 546px;
-    }
+
+
+
+
 
     .footer-links {
         display: flex;
@@ -189,44 +181,32 @@
 
 @media screen and (min-width: 1336px) {
     .footer {
-        width: 1440px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
-
-    .footer-first-par {
-        width: 595px;
-    }
-
     .footer-container {
+        padding: 48px;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        flex-wrap: wrap;
-        min-width: 1312px;
-        flex-direction: row;
+        flex-wrap: wrap;       
+        flex-direction: row;       
+    }    
+    .footer-pre-form {
+        width: 595px;
     }
-
-    .footer-links {
-        display: flex;
-    }
-
-    .footer-button {
-        cursor: pointer;
-        margin-left: 16px;
-        padding: 10px 24px;
-        width: 78px;
-        height: 46px;
-    }
-
     .footer-form {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
-        width: 620px;
+        align-items: center;     
     }
 
-    .foot-form-input {
-        width: 501px;
+
+
+
+    .footer-links {
+        display: flex;
     }
 
     .footer-links {
