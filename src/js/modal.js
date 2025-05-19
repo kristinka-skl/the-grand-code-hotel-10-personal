@@ -1,47 +1,47 @@
 (() => {
     const refs = {
-      openModalBtn: document.querySelector("[data-modal-open-s]"),
-      closeModalBtn: document.querySelector("[data-modal-close-s]"),
+      openModalBtns: document.querySelectorAll("[data-modal-open-s]"),
+      closeModalBtns: document.querySelectorAll("[data-modal-close-s]"),
       modal: document.querySelector("[data-modal-s]"),
     };
   
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+    document.querySelectorAll(".modal").forEach((el) => el.addEventListener("click", (e) => e.stopPropagation()));
+    refs.openModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
+    refs.closeModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
   
     function toggleModal() {
       refs.modal.classList.toggle("is-open");
-      document.body.classList.toggle("no-scroll");
     }
   })();
 
   (() => {
     const refs = {
-      openModalBtn: document.querySelector("[data-modal-open-m]"),
-      closeModalBtn: document.querySelector("[data-modal-close-m]"),
+      openModalBtns: document.querySelectorAll("[data-modal-open-m]"),
+      closeModalBtns: document.querySelectorAll("[data-modal-close-m]"),
       modal: document.querySelector("[data-modal-m]"),
     };
   
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+    document.querySelectorAll(".modal").forEach((el) => el.addEventListener("click", (e) => e.stopPropagation()));
+    refs.openModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
+    refs.closeModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
   
     function toggleModal() {
       refs.modal.classList.toggle("is-open");
-      document.body.classList.toggle("no-scroll");
     }
   })();
 
   (() => {
     const refs = {
       openModalBtns: document.querySelectorAll("[data-modal-open-l]"),
-      closeModalBtn: document.querySelector("[data-modal-close-l]"),
+      closeModalBtns: document.querySelectorAll("[data-modal-close-l]"),
       modal: document.querySelector("[data-modal-l]"),
     };
   
-    refs.openModalBtns.forEach((openModalBtn) => openModalBtn.addEventListener("click", toggleModal));
-    refs.closeModalBtn.addEventListener("click", toggleModal);
+    document.querySelectorAll(".modal").forEach((el) => el.addEventListener("click", (e) => e.stopPropagation()));
+    refs.openModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
+    refs.closeModalBtns.forEach((b) => b.addEventListener("click", toggleModal));
   
     function toggleModal() {
       refs.modal.classList.toggle("is-open");
-      document.body.classList.toggle("no-scroll");
     }
   })();
