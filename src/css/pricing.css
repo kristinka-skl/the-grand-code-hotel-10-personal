@@ -1,0 +1,234 @@
+.pricing-section {
+    background: #f8fbfe;
+}
+
+.container.pricing {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.pricing-header {
+    margin-bottom: 48px;
+}
+
+.pricing-subtitle {
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.pricing-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.pricing-all-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.pricing-card {
+    background: #dfebeb;
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px 24px;
+    max-width: 343px;
+    width: 100%;
+}
+
+.card-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-family: "Cabin", sans-serif;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    margin-bottom: 32px;    
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px; 
+}
+
+.pricing-list-item {
+    text-align: left;    
+}
+
+.marker {
+    margin-right: 16px;
+}
+
+.join-btn-pricing {
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 100%;
+    height: 46px;
+    background: #c2d9fc;
+    font-size: 16px;
+    line-height: 1.6;    
+}
+
+
+
+.join-btn-pricing.first {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .pricing-section {
+        background: #f2fafa;
+    }
+
+    .container.pricing {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pricing-header {
+        margin-bottom: 24px;
+    }
+
+    .pricing-subtitle {
+        margin-bottom: 16px;
+    }
+
+    .pricing-title {
+        margin-bottom: 24px;
+    }
+
+    .pricing-description {
+        font-size: 18px;
+    }
+
+    .pricing-all-cards {
+        gap: 24px;
+    }
+
+    .pricing-card {
+        max-width: calc((100% - 24px) / 2);
+        padding: 16px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .price {
+        font-size: 72px;
+        margin-bottom: 40px;
+    }
+
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+
+    .pricing-card.last {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding-top: 86px;
+        padding-bottom: 86px;
+    }
+
+    .three-card {
+        margin-right: 32px;
+    }
+
+    .card-title.three-card {
+        margin: 0 0 24px;
+    } 
+
+    .price.three-card {
+        margin: 0 0 24px;
+    }
+
+    .join-btn-pricing.first {
+        display: block;
+        width: 320px;
+    }
+
+    .features.three-card {
+        margin: 0;
+    }
+
+
+
+    .join-btn-pricing.last {
+        display: none;
+    }
+
+  
+}
+
+
+
+@media screen and (min-width: 1336px) {
+
+    .container.pricing {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .pricing-header {
+        margin-bottom: 40px;
+    }
+
+    .pricing-title {
+        font-size: 52px;
+    }
+
+    .pricing-all-cards {
+        gap: 24px;
+    }
+
+    .pricing-card {
+        max-width: calc((100% - 48px) / 3);
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-btn-pricing {
+        width: 100%;
+        margin-top: auto;
+    }
+
+
+
+    .join-btn-pricing.first {
+        display: none;
+    }
+
+    .join-btn-pricing.last {
+        display: block;
+    }
+    
+}
