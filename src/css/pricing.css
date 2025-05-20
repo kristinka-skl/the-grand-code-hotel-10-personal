@@ -1,8 +1,5 @@
 .pricing-section {
     background: #f8fbfe;
-}
-
-.container.pricing {
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -67,6 +64,7 @@
 
 .pricing-list-item {
     text-align: left;    
+
 }
 
 .marker {
@@ -90,15 +88,23 @@
     display: none;
 }
 
+.join-btn-pricing:hover,
+.join-btn-pricing:focus,
+.join-btn-pricing.first:hover,
+.join-btn-pricing.first:focus,
+.join-btn-pricing.last:hover,
+.join-btn-pricing.last:focus {
+    background-color: #9BADC9;
+}
+
+
+
 
 
 @media screen and (min-width: 768px) {
 
     .pricing-section {
         background: #f2fafa;
-    }
-
-    .container.pricing {
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -192,7 +198,7 @@
 
 @media screen and (min-width: 1336px) {
 
-    .container.pricing {
+    .pricing-section {
         padding-top: 112px;
         padding-bottom: 112px;
     }
