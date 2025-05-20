@@ -12,5 +12,10 @@
    font-style: normal;
    text-align: center;
  }
-
+ .ancor-link-to-pricing:hover,
+ .ancor-link-to-pricing:focus {
+   background-color: #9BADC9;
+   border-color: #F8FBFE;
+   color: #FFFFFF;
+ }
  
