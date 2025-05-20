@@ -6,7 +6,7 @@
 .facts_container {
     max-width: 375px;
     margin: 0 auto;
-    padding: 64px 0;
+    padding: 64px 16px;
 
 }
 
@@ -18,7 +18,7 @@
     letter-spacing: 0.01em;
     color: #0D0B0A;
     text-align: center;
-    margin: 0 20px 20px;
+    margin: 0 auto;
 }
 
 .facts_text {
