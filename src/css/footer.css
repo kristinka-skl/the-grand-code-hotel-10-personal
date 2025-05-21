@@ -114,6 +114,12 @@
     transition: fill 250ms ease;
 }
 
+.media-icon:hover,
+.media-icon:focus {
+    color: rgba(13, 11, 10, 0.5);
+    transition: color 250ms ease;
+}
+
 .foot-form-input:focus {
     outline: none;
     border: 2px solid rgba(13, 11, 10, 0.5);
