@@ -1,11 +1,11 @@
 {
-  "name": "the-grand-code-hotel-10",
+  "name": "the-grand-code-hotel-10-personal",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/the-grand-code-hotel-10/",
+    "build": "vite build --base=/the-grand-code-hotel-10-personal/",
     "preview": "vite preview"
   },
   "devDependencies": {
