@@ -65,6 +65,12 @@
   background: #c2d9fc;
 }
 
+.btn-programs-to-parcing:hover,
+.btn-programs-to-parcing:focus {
+  background-color: #9BADC9;
+  transition: background-color 250ms ease;
+}
+
 @media only screen and (min-width: 768px) {
   .section-programs {
     background-color: #f2fafa;
