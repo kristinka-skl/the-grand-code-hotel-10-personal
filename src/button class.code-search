@@ -1,0 +1,43 @@
+# Query: button class
+# ContextLines: 1
+
+9 results - 3 files
+
+src/partials/footer.html:
+  24                  </label>
+  25:                 <button class="footer-button" aria-label="join" type="submit">Join</button>
+  26                </form>
+
+src/partials/header.html:
+   2      <div class="container header-container">
+   3:     <button class="burger-btn" type="button" aria-label="open menu">
+   4          <svg class="icon-burger" width="24" height="24">
+
+  10             <div class="nav-bar-container">
+  11:              <button class="menu-close-btn" type="button" aria-label="close menu" data-menu-close>
+  12                 <svg class="menu-close-icon" width="12" height="12">
+
+src/partials/modal.html:
+    3    <div class="modal">
+    4:     <button class="close-btn" type="button" aria-label="close modal window" data-modal-close-s>
+    5        <svg class="close-icon" width="16" height="16">
+
+   47        </div>
+   48:       <button class="submit-btn" type="submit" aria-label="go to checkout" >Go to checkout</button>
+   49      </form>
+
+   54    <div class="modal">
+   55:     <button class="close-btn" type="button" aria-label="close modal window" data-modal-close-m>
+   56        <svg class="close-icon" width="16" height="16">
+
+   98        </div>
+   99:       <button class="submit-btn" type="submit" aria-label="go to checkout" >Go to checkout</button>
+  100      </form>
+
+  105    <div class="modal">
+  106:     <button class="close-btn" type="button" aria-label="close modal window" data-modal-close-l>
+  107        <svg class="close-icon" width="16" height="16">
+
+  149        </div>
+  150:       <button class="submit-btn" type="submit" aria-label="go to checkout" >Go to checkout</button>
+  151      </form>
