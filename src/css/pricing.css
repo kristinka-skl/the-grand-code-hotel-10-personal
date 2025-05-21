@@ -1,7 +1,10 @@
 .pricing-section {
     background: #f8fbfe;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 64px 0;
+}
+
+.container.pricing {
+    padding: 0 16px;
 }
 .pricing-header {
     margin-bottom: 48px;
@@ -83,8 +86,10 @@
 @media screen and (min-width: 768px) {
     .pricing-section {
         background: #f2fafa;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 40px 0;
+    }
+    .container.pricing {
+        padding: 0 32px;
     }
     .pricing-header {
         margin-bottom: 24px;
@@ -144,8 +149,11 @@
 @media screen and (min-width: 1336px) {
 
     .pricing-section {
-        padding-top: 112px;
-        padding-bottom: 112px;
+        padding: 112px 0;
+    }
+
+    .container.pricing {
+        padding: 0 64px;
     }
     .pricing-header {
         margin-bottom: 40px;
