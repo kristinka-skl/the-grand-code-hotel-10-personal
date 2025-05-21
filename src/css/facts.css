@@ -74,6 +74,7 @@
 .ancor-link-to-pricing:hover,
 .ancor-link-to-pricing:focus {
  background-color: #9BADC9;
+ transition: background-color 250ms ease;
 }
 .facts_link {
     margin: 0 16px;
