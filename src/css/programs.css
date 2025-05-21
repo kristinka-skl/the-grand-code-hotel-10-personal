@@ -24,8 +24,16 @@
   margin-bottom: 48px;
 }
 
+.programs-list {
+  margin-bottom: 48px;
+}
+
 .programs-item {
   margin-bottom: 48px;
+}
+
+.programs-list .programs-item:last-child {
+  margin-bottom: 0;
 }
 
 .programs-card-photo img {
@@ -55,6 +63,17 @@
   max-width: 343px;
   height: 46px;
   background: #c2d9fc;
+  transition: 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-programs-to-parcing:hover,
+.btn-programs-to-parcing:focus {
+   background-color: #9BADC9;
+   border-color: #F8FBFE;
+   color: #FFFFFF;
 }
 
 @media only screen and (min-width: 768px) {

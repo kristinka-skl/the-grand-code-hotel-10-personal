@@ -59,6 +59,16 @@
   padding: 4px 22px;
   font-weight: 500;
   font-size: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-link-to-pricing:hover,
+.menu-link-to-pricing:focus {
+   background-color: #9BADC9;
+   border-color: #F8FBFE;
+   color: #FFFFFF;
 }
 
 .menu-extra-word {
@@ -78,12 +88,12 @@
 
 .menu-link {
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
 .menu-link:focus {
   color:  rgba(13, 11, 10, 0.5);
-  transition: color 250ms ease;
 }
 
 .menu-join-link {
@@ -96,6 +106,18 @@
   font-size: 16px;
   background-color: #c2d9fc;
   margin-top: 276px;
+  transition: 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.menu-join-link:hover,
+.menu-join-link:focus {
+   background-color: #9BADC9;
+   border-color: #F8FBFE;
+   color: #FFFFFF;
 }
 
 .header-logo {
@@ -122,6 +144,16 @@
   padding: 4px 22px;
   font-weight: 500;
   font-size: 16px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link-to-pricing:hover,
+.header-link-to-pricing:focus {
+  background-color: #9BADC9;
+  border-color: #F8FBFE;
+  color: #FFFFFF;
 }
 
 .extra-word {
@@ -175,6 +207,10 @@
   
   .nav-link.current {
     border-bottom: 2px solid rgba(13, 11, 10, 0.5);
+  }
+   
+  .nav-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .nav-link:hover,

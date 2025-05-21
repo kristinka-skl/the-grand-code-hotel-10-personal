@@ -47,7 +47,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 gap: 48px;
-padding: 48px 0;
+margin-top: 48px;
 }
 
 .team-item{
@@ -101,6 +101,14 @@ gap: 14px;
 margin-top: 20px;
 }
 
+.team-soc-icon:focus,
+.team-soc-icon:hover{
+	fill: #9BADC9;
+	transition: fill 250ms ease;
+}
+
+
+
 @media screen and (min-width: 768px){
 	.team-section{
          padding: 40px 0 ;
@@ -137,4 +145,8 @@ margin-top: 20px;
      .team-list .team-item{
 		width: calc((100% - 48px) / 3);
 	}
+
+	.team-soc-icon{
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
