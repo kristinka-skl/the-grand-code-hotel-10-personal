@@ -1,9 +1,10 @@
 .pricing-section {
-    background: #F8FBFE;
+    background: #f8fbfe;
+    padding: 64px 0;
 }
+
 .container.pricing {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 0 16px;
 }
 .pricing-header {
     margin-bottom: 48px;
@@ -55,7 +56,8 @@
 .pricing-list-item {
     display: flex;
     margin-bottom: 16px;
-    text-align: left;
+    text-align: left;    
+ 
 }
 .marker {
     margin-right: 16px;
@@ -73,13 +75,24 @@
 .join-btn-pricing.first {
     display: none;
 }
+
+.join-btn-pricing:hover,
+.join-btn-pricing:focus,
+.join-btn-pricing.first:hover,
+.join-btn-pricing.first:focus,
+.join-btn-pricing.last:hover,
+.join-btn-pricing.last:focus {
+    background-color: #9BADC9;
+    transition: background-color 250ms ease;
+}
+
 @media screen and (min-width: 768px) {
     .pricing-section {
-        background: #F2FAFA;
+        background: #f2fafa;
+        padding-top: 40px 0;
     }
     .container.pricing {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 0 32px;
     }
     .pricing-header {
         margin-bottom: 24px;
@@ -137,9 +150,13 @@
     }
 }
 @media screen and (min-width: 1336px) {
+
+    .pricing-section {
+        padding: 112px 0;
+    }
+
     .container.pricing {
-        padding-top: 112px;
-        padding-bottom: 112px;
+        padding: 0 64px;
     }
     .pricing-header {
         margin-bottom: 40px;

@@ -24,8 +24,16 @@
   margin-bottom: 48px;
 }
 
+.programs-list {
+  margin-bottom: 48px;
+}
+
 .programs-item {
   margin-bottom: 48px;
+}
+
+.programs-list .programs-item:last-child {
+  margin-bottom: 0;
 }
 
 .programs-card-photo img {
@@ -55,6 +63,12 @@
   max-width: 343px;
   height: 46px;
   background: #c2d9fc;
+}
+
+.btn-programs-to-parcing:hover,
+.btn-programs-to-parcing:focus {
+  background-color: #9BADC9;
+  transition: background-color 250ms ease;
 }
 
 @media only screen and (min-width: 768px) {
